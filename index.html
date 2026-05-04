@@ -106,7 +106,7 @@
         head.appendChild(script);
       }
 
-            loadScript("UnityLoader-v3.js", function () {
+            loadScript("https://cdn.jsdelivr.net/gh/woodle87/slopetunnel@main/UnityLoader-v3.js", function () {
               var gameInstance = UnityLoader.instantiate("gameContainer", "Slope Tunnel Crazy Games.json", {onProgress: UnityProgress});
                 function UnityProgress(gameInstance, progress) {
                   if (!gameInstance.Module) {
